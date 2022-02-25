@@ -16,7 +16,7 @@ int main()
   bool exist = false;
   for (int i = 0; i < N; i++)
   {
-    cout << a[i] << endl;
+    cout << i << endl;
     if (a[i] == target)
     {
       exist = true;
